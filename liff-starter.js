@@ -5,7 +5,7 @@ Anda dapat mengisi defaultLIffId dengan LIFF ID yang terletak pada LIFF URL di c
 yang sudah Anda buat. */
 
 window.onload = function() {
-    const useNodeJS = false;   // if you are not using a node server, set this value to false
+    const useNodeJS = true;   // if you are not using a node server, set this value to false
     const defaultLiffId = "line://app/1653656167-KJMVkdMl";   // change the default LIFF value if you are not using a node server
  
     // DO NOT CHANGE THIS
