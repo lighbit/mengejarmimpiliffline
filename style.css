@@ -4,17 +4,21 @@ html {
  
 table {
     width: 100%;
-    overflow-x: auto;
-    display: block;
+    table-layout: fixed;
+    word-break: break-all;
 }
- 
+
 div {
     max-width: 100%;
     text-align: center;
 }
- 
+
 th {
-    text-align: left;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
  
 img { 
@@ -44,7 +48,7 @@ button {
 }
  
 .textLeft {
-    text-align: left;
+    text-align: center;
 }
  
 .buttonGroup {
